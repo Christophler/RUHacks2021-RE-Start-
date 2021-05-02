@@ -15,3 +15,13 @@ Consists of main controls of the app.
 1. Start component
 2. Awake component
 3. End component
+
+
+# NPM installs:
+```
+npm install create-react-app
+npx create-react-app restart
+npm install react-range-step-input
+npm install react-time-range-slider
+npm install react-time-picker
+```
