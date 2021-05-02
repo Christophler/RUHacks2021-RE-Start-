@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-.container {
+.container-blue {
 	height: 95vh;
 	position: relative;
 	border: 5px solid black;
 	text-align: center;
 	background: #aceeff;
+	transition-duration: 0.5s;
+}
+
+.container-red {
+	height: 95vh;
+	position: relative;
+	border: 5px solid black;
+	text-align: center;
+	background: #ffa1a1;
+	transition-duration: 0.5s;
 }
 
 div.center {
@@ -78,17 +88,13 @@ div.center {
 	
 }
 
-.controls div {
+.control {
 	margin: auto;
-	padding-top: 1px;
+	padding-top: 15px;
 }
 
 .controls * {
 	float: left;
-}
-
-.control {
-	margin-top: 20px;
 }
 
 #happiness_level {

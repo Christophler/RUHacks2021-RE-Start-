@@ -1,13 +1,11 @@
 import { Fragment, useState } from "react";
 import TimePicker from "react-time-picker";
 
-function AppTimePicker() {
-	const [value, onChange] = useState("10:00");
+function AppTimePicker(props) {
+	const [value, onChange] = useState("12:00");
 	return (
 		<Fragment>
-			<div>
-				<TimePicker onChange={onChange} value={value} />
-			</div>
+				<TimePicker disabled={props.disabled} onChange={onChange} value={value} />
 		</Fragment>
 	);
 }

@@ -5,7 +5,7 @@ class Title extends Component {
 		return (
 			<Fragment>
 				<div className="center-title">Re:Start</div>
-				<div className="center-desc">By Jeremy, Henry & Chris</div>
+				<div className="center-desc">Your 90 Minute Sleep Cycle Clock</div>
 				<hr />
 			</Fragment>
 		);

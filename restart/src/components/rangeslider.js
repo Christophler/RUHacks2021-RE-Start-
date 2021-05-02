@@ -16,7 +16,7 @@ class RangeSlider extends Component {
 				<div id="happiness_level" className="control">
 					<span>Happiness Level:</span>
 					<RangeStepInput
-						disabled=""
+						disabled={this.props.disabled}
 						step={25}
 						min={0}
 						max={100}
