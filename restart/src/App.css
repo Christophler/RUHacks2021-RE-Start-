@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.container {
+	height: 95vh;
+	position: relative;
+	border: 5px solid black;
+	text-align: center;
+	background: #aceeff;
+}
+
+div.center {
+	margin: auto;
+}
+
+.center-title {
+	margin: auto;
+	width: 50%;
+	font-size: 72px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-desc {
+	margin: auto;
+	width: 50%;
+	font-size: 24px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-btn-start {
+	margin-right: 25px;
+	width: 120px;
+	height: 120px;
+	font-size: 30px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition-duration: 0.5s;
+}
+
+.big-btn-awake {
+	margin-right: 25px;
+	width: 120px;
+	height: 120px;
+	font-size: 30px;
+	padding: 5px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition-duration: 0.5s;
+}
+
+.big-btn-start:hover {
+	width: 120px;
+	height: 120px;
+	font-size: 30px;
+	padding: 5px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(162, 255, 162);
+}
+
+.big-btn-awake:hover {
+	width: 120px;
+	height: 120px;
+	font-size: 30px;
+	padding: 5px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(255, 161, 161);
+}
+
+.display {
+	font-family: "Roboto", sans-serif;
+}
+
+.slider {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.controls {
+	margin: auto;
+	display: inline-block;
+	
+}
+
+.controls div {
+	margin: auto;
+	padding-top: 1px;
+}
+
+.controls * {
+	float: left;
+}
+
+.control {
+	margin-top: 20px;
+}
+
+#happiness_level {
+	padding-top: 50px;
+}
