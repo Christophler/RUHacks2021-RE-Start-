@@ -1,11 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-.container {
+.container-blue {
 	height: 95vh;
 	position: relative;
 	border: 5px solid black;
 	text-align: center;
 	background: #aceeff;
+	transition-duration: 0.5s;
+}
+
+.container-red {
+	height: 95vh;
+	position: relative;
+	border: 5px solid black;
+	text-align: center;
+	background: #ffa1a1;
+	transition-duration: 0.5s;
+}
+
+.container-orange {
+	height: 95vh;
+	position: relative;
+	border: 5px solid black;
+	text-align: center;
+	background: #ffc478;
+	transition-duration: 0.5s;
 }
 
 div.center {
@@ -35,6 +54,25 @@ div.center {
 	transition-duration: 0.5s;
 }
 
+.big-btn-start-again {
+	float: right;
+	width: 240px;
+	height: 120px;
+	font-size: 30px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition-duration: 0.5s;
+}
+
+.big-btn-start-again:hover {
+	float: right;
+	width: 240px;
+	height: 120px;
+	font-size: 30px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition-duration: 0.5s;
+	background:rgb(147, 255, 162)
+}
+
 .big-btn-awake {
 	margin-right: 25px;
 	width: 120px;
@@ -60,11 +98,12 @@ div.center {
 	font-size: 30px;
 	padding: 5px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	background-color: rgb(255, 161, 161);
+	background-color: rgb(255, 206, 161);
 }
 
 .display {
 	font-family: "Roboto", sans-serif;
+	font-size: 12px;
 }
 
 .slider {
@@ -78,19 +117,19 @@ div.center {
 	
 }
 
-.controls div {
-	margin: auto;
-	padding-top: 1px;
+#start-again {
+	display: inline-block;
+	float: none;
 }
 
 .controls * {
 	float: left;
 }
 
-.control {
-	margin-top: 20px;
+.center-button {
+	float: none;
 }
 
-#happiness_level {
-	padding-top: 50px;
+.center {
+	float: none;
 }
