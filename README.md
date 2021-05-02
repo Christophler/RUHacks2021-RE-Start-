@@ -3,13 +3,13 @@ This app was inspired by the idea of the 90-minute sleep cycle. We wake up more 
 Re:Start aims to wake you up at this ideal time.
 
 # Components
-##Title Component:
+## Title Component:
 Contains the title and description
 
-##TimeDisplay Component:
+## TimeDisplay Component:
 Contains the current date & time (updates in real-time)
 
-##Controls component
+## Controls component
 Consists of main controls of the app.
 1. Start component
 2. Awake component
