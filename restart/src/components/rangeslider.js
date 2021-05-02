@@ -13,17 +13,14 @@ class RangeSlider extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div id="happiness_level" className="control">
-					<span>Happiness Level:</span>
-					<RangeStepInput
-						disabled={this.props.disabled}
-						step={25}
-						min={0}
-						max={100}
-						value={this.state.slider_val}
-						onChange={this.onChange.bind(this)}
-					/>
-				</div>
+				<RangeStepInput
+					disabled={this.props.disabled}
+					step={25}
+					min={0}
+					max={100}
+					value={this.state.slider_val}
+					onChange={this.onChange.bind(this)}
+				/>
 			</Fragment>
 		);
 	}
