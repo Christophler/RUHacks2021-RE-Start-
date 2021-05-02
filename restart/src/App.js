@@ -8,11 +8,17 @@ class App extends React.Component {
 		color: "blue",
 	};
 
-	changeColor = () => {
-		if(this.state.color == "blue") {
-			this.setState({color: "red"});
-		} else {
-			this.setState({color: "blue"});
+	setColor(color) {
+		this.setState({color: color});
+	}
+
+	changeColor = (page) => {
+		if(page === "start") {
+			this.setColor("blue");
+		} else if(page === "awake") {
+			this.setColor("red");
+		} else if(page === "end") {
+			this.setColor("orange");
 		}
 	}
 
